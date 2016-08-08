@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  webgoat:
+    build:
+      context: .
+    image: leunammejii/webgoat-n-docker:openjdk-8-jre
+    labels:
+      - webgoat-n-docker
+    ports:
+      - '8080:8080'
+    restart: always
+    tty: true
+
