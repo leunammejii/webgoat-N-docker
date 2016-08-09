@@ -5,6 +5,8 @@
 This project is used to Dockerize the OWASP WebGoat project.  
 
 #### Prerequisites  
+- Bash  
+- Curl  
 - Docker-Engine  
 - Docker-Compose  
 - Git
