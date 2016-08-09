@@ -39,4 +39,4 @@ echo -e "\x1B[01;92m Creating network, image, and container \x1B[0m"
 docker-compose up -d
 
 echo -e "\x1b[01;36m\n The build is complete! Please navigate to: \n\x1B[0m"
-echo -e "\x1B[01;36m\t http://localhost:8080/WebGoat \x1B[0m"
+echo -e "\x1B[01;36m\t http://localhost:8080/WebGoat \n\x1B[0m"
