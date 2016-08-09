@@ -33,7 +33,7 @@ cd ./leunammejii/webgoat-N-docker
 echo -e "\x1B[01;92m Initializing git reporsitory \x1B[0m"
 git init
 echo -e "\x1B[01;92m Pulling down the webgoat-N-docker repository \x1B[0m"
-git pull https://raw.githubusercontent.com/leunammejii/webgoat-N-docker/master/setup.sh
+git pull https://github.com/leunammejii/webgoat-N-docker.git
 
 echo -e "\x1B[01;92m Creating network, image, and container \x1B[0m"
 docker-compose up -d
