@@ -4,6 +4,7 @@ services:
   webgoat:
     build:
       context: .
+      dockerfile: Dockerfile
     image: leunammejii/webgoat-n-docker:openjdk-8-jre
     labels:
       - webgoat-n-docker
@@ -11,4 +12,14 @@ services:
       - '8080:8080'
     restart: always
     tty: true
-
+  webgoat_armhf:
+    build:
+      context: .
+      dockerfile: Dockerfile-Armhf
+    image: leunammejii/webgoat-n-docker:openjdk-8-jre
+    labels:
+      - webgoat-n-docker
+    ports:
+      - '8080:8080'
+    restart: always
+    tty: true
