@@ -20,6 +20,7 @@ then
     docker-compose up -d webgoat_armhf
 else
     docker-compose up -d webgoat
+fi
 
 echo -e "\x1b[01;36m\n The build is complete! Please navigate to: \n\x1B[0m"
 echo -e "\x1B[01;36m\t http://HOSTIP:8080/WebGoat \n\x1B[0m"
