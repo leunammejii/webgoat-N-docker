@@ -2,27 +2,6 @@
 
 set -e
 
-echo -e "\x1B[01;92m Checking if Docker is installed \x1B[0m"
-if [ ! -f /usr/bin/docker ]
-then
-    echo -e "\x1B[01;91m Docker was not found in /usr/bin \x1B[0m"
-    exit 1
-fi
-
-echo -e "\x1B[01;92m Checking if Docker-Compose is installed \x1B[0m"
-if [ ! -f /usr/local/bin/docker-compose ]
-then
-    echo -e "\x1B[01;91m Docker-Compose was not found in /usr/local/bin \x1B[0m"
-    exit 1
-fi
-
-echo -e "\x1B[01;92m Checking if Git is installed \x1B[0m"
-if [ ! -f /usr/bin/git ]
-then
-    echo -e "\x1B[01;91m Git was not found in /usr/bin \x1B[0m"
-    exit 1
-fi
-
 echo -e "\x1B[01;92m Changing directory to $HOME \x1B[0m"
 cd $HOME
 echo -e "\x1B[01;92m Creating the ./leunammejii/webgoat-N-docker directories \x1B[0m"
