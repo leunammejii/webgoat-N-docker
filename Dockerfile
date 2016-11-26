@@ -1,12 +1,8 @@
 FROM java:openjdk-8-jre
 MAINTAINER leunammejii
 
-RUN apt-get update && \
-    apt-get upgrade -y && \
-    apt-get install -y vim
-
 WORKDIR /root
 
-RUN wget https://s3.amazonaws.com/webgoat-war/webgoat-container-7.0.1-war-exec.jar
+RUN wget https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar
 
-CMD java -jar webgoat-container-7.0.1-war-exec.jar --httpPort 8080
+CMD java -jar webgoat-container-7.1-exec.jar -httpPort 8080
