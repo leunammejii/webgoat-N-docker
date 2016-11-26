@@ -19,7 +19,7 @@ bash <(curl -s https://raw.githubusercontent.com/leunammejii/webgoat-N-docker/ma
 
 When the build is complete, navigate to:    
 ```bash  
-http://localhost:8080/WebGoat
+http://HOSTIP:8080/WebGoat
 ```  
 
 #### Destroy & Rebuild  
@@ -27,14 +27,14 @@ Once you have run the first command, you can now destroy and rebuild the
 containers with the following commands:  
 
 ```bash  
-cd ~/leunammejii/webgoat-N-docker/docker-compose  
+cd ~/leunammejii/webgoat-N-docker  
 docker-compose down  
 docker-compose up -d  
 ```  
 
 To remove the project completely,  run the following commands:  
 ```bash  
-cd ~/leunammejii/webgoat-N-docker/docker-compose  
+cd ~/leunammejii/webgoat-N-docker  
 docker-compose down --rmi all  
 cd $HOME  
 sudo rm -r ./leunammejii/webgoat-N-docker
