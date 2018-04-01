@@ -23,8 +23,7 @@ http://HOSTIP:8080/WebGoat
 ```  
 
 #### Destroy & Rebuild  
-Once you have run the first command, you can now destroy and rebuild the  
-containers with the following commands:  
+Once you have run the first command, you can now destroy and rebuild the containers with the following commands:  
 
 ```bash  
 cd ~/leunammejii/webgoat-N-docker  
