@@ -1,5 +1,5 @@
 FROM armhf/openjdk:openjdk-8-jre
-MAINTAINER leunammejii
+MAINTAINER ecstatic-nobel
 
 WORKDIR /root
 
