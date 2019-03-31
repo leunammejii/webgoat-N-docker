@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: leunammejii/webgoat-n-docker:openjdk-8-jre
+    image: ecstatic-nobel/webgoat-n-docker:openjdk-8-jre
     labels:
       - webgoat-n-docker
     ports:
@@ -16,7 +16,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-Armhf
-    image: leunammejii/webgoat-n-docker:openjdk-8-jre
+    image: ecstatic-nobel/webgoat-n-docker:openjdk-8-jre
     labels:
       - webgoat-n-docker
     ports:
