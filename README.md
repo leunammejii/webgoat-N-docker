@@ -14,7 +14,7 @@ This project is used to Dockerize the OWASP WebGoat project.
 #### Setup  
 Open a terminal and run the following command:  
 ```bash
-git clone https://github.com/leunammejii/webgoat-N-docker.git
+git clone https://github.com/ecstatic-nobel/webgoat-N-docker.git
 cd webgoat-N-docker
 docker-compose up -d webgoat
 ```
@@ -43,5 +43,5 @@ To remove the project completely,  run the following commands:
 cd webgoat-N-docker  
 docker-compose down --rmi all  
 cd $HOME  
-sudo rm -r ./leunammejii/webgoat-N-docker
+sudo rm -r ./ecstatic-nobel/webgoat-N-docker
 ```
